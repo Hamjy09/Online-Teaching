@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Prompt"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="Icons/Nova Levels (200 x 150 px).svg" type="image/webp" />
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="services-styles.css" />
+  </head>
+  <body>
+    <nav class="mobile-navbar" id="nav">
+      <img
+        class="icon"
+        id="close-icon"
+        src="Icons/cross-white.svg"
+        alt="close menu button"
+      />
+      <ul class="mobile-ul">
+        <li class="mobile-li"><a href="index.html">Home</a></li>
+        <li class="mobile-li">
+          <a href="Services.html" class="active">Services</a>
+        </li>
+        <li class="mobile-li"><a href="about.html">About</a></li>
+        <li class="mobile-li"><a href="contact.html">Contact</a></li>
+        <li class="mobile-li"><a href="faqs.html">FAQs</a></li>
+      </ul>
+    </nav>
+    <div id="content-wraper">
+      <main id="main-content">
+        <!--============= Header Section =========-->
+        <header>
+          <img id="menu-icon" src="Icons\menu.svg" alt="menu icon" />
+          <img
+            class="logo"
+            src="Icons/Nova Levels (200 x 150 px).svg"
+            alt="Logo of Dr fatima"
+          />
+          <!-- <div class="schedule">
+            <h3 class="">Teaching Hours</h3>
+            <p>Mon - Fri | 1:00 PM - Onwards</p>
+          </div> -->
+          <nav class="laptop-navbar">
+            <ul class="laptop-ul">
+              <li class="laptop-li"><a href="index.html">Home</a></li>
+              <li class="laptop-li">
+                <a href="Services.html" class="active">Services</a>
+              </li>
+              <li class="laptop-li"><a href="about.html">About</a></li>
+              <li class="more">
+                More
+                <ul class="dropdown">
+                  <li class="dropdown-item">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                  <li class="dropdown-item"><a href="faqs.html">FAQs</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <!--============== Clinic Hours =========-->
+        <!-- <div class="schedule-mobile">
+          <h3 class="">Teaching Hours:</h3>
+          <p>Mon - Fri | 1:00 PM - Onward</p>
+        </div> -->
+        <!--====== Heading ====-->
+        <section class="heading-section">
+          <h1>Services Available</h1>
+        </section>
+        <!--======== Treatments Section =====-->
+       <section class="treatments-section" id="treatments">
+        <div class="articles-wrapper">
+
+          <article class="article1">
+            <div class="anti-ageing category">
+              <div class="service-photo">
+                <img src="Pics/Bright future 2.webp" alt="Rejuvenating Treatments" />
+              </div>
+              <h1>Online Quran & Islamic Studies</h1>
+              <div id="more-text5" class="hidden-text">
+                <h2>Nazra Quran, Noorani Qaida, Tajweed, Basic Islamic Studies</h2>
+                <p>Step-by-step Quran learning with correct pronunciation and understanding. Flexible online classes for all ages, helping learners recite and understand with confidence.</p>
+              </div>
+              <button id="toggle-btn5" onclick="toggleText(`5`)">Read more</button>
+            </div>
+
+            <div class="rejuvenating category">
+              <div class="service-photo">
+                <img src="Pics/Bright future 2.webp" alt="Rejuvenating Treatments" />
+              </div>
+              <h1>Skill Development</h1>
+              <div id="more-text6" class="hidden-text">
+                <h2>Spoken English, Creative Writing</h2>
+                <p>Practical skill-building alongside academics. Learn essential study techniques, coding basics, creative writing, and effective learning habits to enhance overall performance.</p>
+              </div>
+              <button id="toggle-btn6" onclick="toggleText(`6`)">Read more</button>
+            </div>
+
+            <div class="body-treatments category">
+              <div class="service-photo">
+                <img src="Pics/Bright future 2.webp" alt="Rejuvenating Treatments" />
+              </div>
+              <h1>O Level / A Level Subjects</h1>
+              <div id="more-text7" class="hidden-text">
+                <h2>O,A Level Math, Physics, Chemistry, Biology, English, ICT, Business Studies</h2>
+                <p>Tailored support for international curriculum students with clear explanations, practice exercises, and exam strategies to excel in O/A Level exams.</p>
+              </div>
+              <button id="toggle-btn7" onclick="toggleText(`7`)">Read more</button>
+            </div>
+          </article>
+
+
+          <article class="article2">
+            <div class="special-treatments category">
+              <div class="service-photo">
+                <img src="Pics/Bright future 2.webp" alt="Rejuvenating Treatments" />
+              </div>
+              <h1>FSC / Higher Secondary</h1>
+              <div id="more-text8" class="hidden-text">
+                <h2>Pre-Medical (Bio,Chem,Phy),Pre-Engineering (Math,Phy,Chem)</h2>
+                <p>Focused guidance for advanced topics, detailed problem-solving, and preparation for board exams. Helps students achieve deeper understanding and higher academic performance.</p>
+              </div>
+              <button id="toggle-btn8" onclick="toggleText(`8`)">Read more</button>
+            </div>
+
+            <div class="injectables category">
+              <div class="service-photo">
+                <img src="Pics/Bright future 2.webp" alt="Rejuvenating Treatments" />
+              </div>
+              <h1>High School Matric</h1>
+              <div id="more-text9" class="hidden-text">
+                <h2>Math,Phy,Chem,Bio,English,PakStudies,Islamiat,Computer</h2>
+                <p>Strengthen exam-ready knowledge with step-by-step explanations, chapter-wise practice, and concept clarity. Perfect for improving grades and building confidence in core subjects.</p>
+              </div>
+              <button id="toggle-btn9" onclick="toggleText(`9`)">Read more</button>
+            </div>
+
+            <div class="hair-reduction category">
+              <div class="service-photo">
+                <img src="Pics/Bright future 2.webp" alt="Rejuvenating Treatments" />
+              </div>
+              <h1>Primary & Middle School</h1>
+              <div id="more-text10" class="hidden-text">
+                <h2>Math,Science,English,Urdu,Computer,SSt</h2>
+                <p>Build a strong foundation with simple lessons, interactive examples, and practice exercises. Focus on understanding concepts, improving reading, writing, and problem-solving skills.</p>
+              </div>
+              <button id="toggle-btn10" onclick="toggleText(`10`)">Read more</button>
+            </div>
+          </article>
+
+        </div>
+        </section>
+
+      </main>
+    </div>
+    <script src="script.js"></script>
+    <script src="footer.js"></script>
+  </body>
+</html>
